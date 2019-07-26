@@ -1,0 +1,55 @@
+button {
+  background-color: #58595B;
+  border: none;
+  color: white;
+  text-align: center;
+  display: flexbox;
+  font-size: 40px;
+  cursor: pointer;
+  height: 46px;
+  width: 70px;
+  outline: none;
+  line-height: 46px;
+  pointer-events: auto;
+}
+
+.black {
+  background-color: black; 
+  font-size: 26px;
+}
+
+#zeroBtn {
+  width: 154px;
+}
+
+.equals {
+  background-color: #F25A2B;
+  height: 112px;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+ .equals:hover {
+  background-color: #bc3500;
+} 
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button:active {
+  background-color: darkgrey;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 18px;
+  height: 47px;
+  width: 322px;
+  pointer-events: none;
+  position: relative;
+}

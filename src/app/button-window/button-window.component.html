@@ -1,0 +1,30 @@
+<div class="row">
+  <button class="black" (click)="changeState('clear_all')">AC</button>
+  <button class="black" (click)="changeState('clear')">C</button>
+  <button class="black" (click)="changeState('divide')">/</button>
+  <button class="black" (click)="changeState('multiply')" >X</button>
+</div>
+<div class="row">
+    <button (click)="changeState(7)">7</button>
+    <button (click)="changeState(8)">8</button>
+    <button (click)="changeState(9)">9</button>
+    <button (click)="changeState('minus')">-</button>
+  </div>
+<div class="row">
+    <button (click)="changeState(4)">4</button>
+    <button (click)="changeState(5)">5</button>
+    <button (click)="changeState(6)">6</button>
+    <button (click)="changeState('plus')">+</button>
+  </div>
+  <div class="row">
+      <button (click)="changeState(1)">1</button>
+      <button (click)="changeState(2)">2</button>
+      <button (click)="changeState(3)">3</button>
+      <button ></button>
+    </div>
+<div class="row">
+    <button (click)="changeState(0)" id="zeroBtn">0</button>
+    <button (click)="changeState('point')">.</button>
+    <button></button>
+    <button class="equals" (click)="changeState('equals')">=</button>
+</div>

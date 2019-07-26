@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  top: 10vh;
+}
+
+.Calculator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #3F373E, #1F1B21);
+  background-color: #39393B;
+  border-radius: 20px;
+  position: relative;
+  height: 465px;
+  width: 378px;
+  padding-bottom: 20px;
+}
+
+.Shadow {
+  background-color: #B4353C;
+  transform: rotate(15deg) skew(-21deg);
+  position: absolute;
+  top: 24.8%;
+  left: 45.4%;
+  height: 557px;
+  width: 1201px;
+  z-index: -1;
+}

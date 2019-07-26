@@ -1,0 +1,21 @@
+.Screen {  
+  display: flex;
+  background-color:#A2AF77;
+  border: none;
+  width: 324px;
+  flex-direction: column;
+  text-align: right;
+  border-radius: 18px;
+  margin-top: 34px;
+  height: 95px;
+}
+
+.Buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 81%;
+  width: 86%;
+}

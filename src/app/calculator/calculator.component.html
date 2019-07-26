@@ -1,0 +1,10 @@
+<app-screen 
+  class="Screen"
+  [screenValue]="this.state.latestVal"
+  >
+</app-screen>
+<app-button-window 
+  class="Buttons" 
+  (messageEvent)="receiveState($event)"
+  >
+</app-button-window>
